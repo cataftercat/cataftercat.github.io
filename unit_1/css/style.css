@@ -1,5 +1,8 @@
 body {background-color: black}
-h1 {color: purple}
+h1 {
+	color: purple;
+	font-family: Verdana
+}
 h3 {color: white}
 p, ul {
 	color: gold;
