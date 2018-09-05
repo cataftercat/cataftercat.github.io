@@ -3,11 +3,18 @@ h1 {
 	color: purple;
 	font-family: Verdana
 }
-h3 {color: white}
-p, ul {
-	color: gold;
+.container {position: relative;}
+.text-block {
+	position: absolute;
+	color: black;
+	bottom: 60px;
+	top: 60px;
+}
+p,ul {
+	color: #fffff;
 	font-family: arial;
 	font-size: small
+	background
 }
 a {color: green}
 a:hover {color:hotpink}
