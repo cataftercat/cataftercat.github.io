@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
 body {background-color: white}
 h3 {
 	color: black;
-	font-family: arial black;
+	font-family: Heebo, sans-serif;
+	font-size: 24px;
 	font-weight: bold;
+	line-height: 1.5em;
+	margin: 1.5em;
 }
 .container {
 
@@ -14,14 +19,17 @@ h3 {
 }
 .text-block {
 	color: white;
-	font-family: arial;
+	font-family: Heebo;
+	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
 	margin-top: 150px;
 
 }
-.text-block .subtext {
+.subtext {
 	color: white;
+	font-family: palatino;
+	font-size: 18px;
 }
 
 .cta {
@@ -34,14 +42,71 @@ h3 {
   	cursor: pointer;
   	border-radius: 5px;
   	margin-top: 100px;
+
 }
 
+button {
+	color: red;
+	font-family: heebo;
+	font-size: 15px;
+	border: none;
+	background: #ffffff;
+	padding: 20px;
+}
 
-p,ul {
+button a {
+	color: purple;
+}
+
+p,ul, address {
 	color: #000000;
-	font-family: arial;
-	font-size: small
+	font-family: palatino, times new roman, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+
 }
 a {color: green}
+
 a:hover {color:hotpink}
 
+.logo {
+	width: 25%;
+	border: 1px solid purple;
+
+}
+
+nav {
+	border: 1px solid red;
+	display: inline-block;
+	float: right;
+}
+
+.logo {
+	width: 25%;
+}
+
+.realEstateContainer {
+	border: 3px solid blue;
+	height: 520px;
+}
+
+.realEstateContainer img{
+	float: left;
+	width: 14%;
+}
+
+.realEstateContainer-text {
+	background-color: green;
+	float: right;
+	width: 86%;
+}
+
+.invitation {
+	border: 3px solid purple;
+	clear: both;
+}
+
+.invitation-text {
+	background-color: red;
+}
