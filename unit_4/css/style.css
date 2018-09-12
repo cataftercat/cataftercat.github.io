@@ -120,3 +120,14 @@ nav {
   	width: 80%;
   	height: 400px;
 }
+.footer p {
+	float: right;
+	font-family: palatino, times new roman, serif;
+	font-size: 13pt;
+}
+
+.footer-button button {
+	float: left;
+	display: block;
+
+}
