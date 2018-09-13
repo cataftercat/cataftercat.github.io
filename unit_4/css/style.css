@@ -1,133 +1,99 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:900');
 @import url('https://fonts.googleapis.com/css?family=Heebo:900');
-body {background-color: white}
-h3 {
-	color: black;
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color: #222;
+	font-family: palatino, times new roman, serif;
+	font-size: 18px;
+	line-height:1.5;
+}
+h1 {
+	font-family: Heebo, sans-serif;
+	font-size:1.5em;
+}
+h2 {
 	font-family: Heebo, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
-	line-height: 1.5em;
-	margin: 1.5em;
 }
-.container {
-
+.heroContainer {
 	border: 3px solid white;
+	color:#fff;
 	height: 800px;
 	background-image: url('../images/editcam.jpg');
 	background-size: cover;
 	background-position: center;
 }
-.text-block {
-	color: white;
-	font-family: Heebo;
-	font-size: 30px;
-	font-weight: bold;
+.textBlock {
 	text-align: center;
 	margin-top: 150px;
-
 }
-.subtext {
-	color: white;
-	font-family: palatino;
-	font-size: 18px;
-}
-
 .cta {
   	background-color: transparent;
-  	color: white;
-  	font-size: 16px;
-  	font-weight: bold;
-  	padding: 12px 24px;
   	border: 2px solid white;
-  	cursor: pointer;
   	border-radius: 5px;
+  	color: white;
+  	display:inline-block;
+  	font-weight: bold;
   	margin-top: 100px;
-
+  	padding: 1em 2em;
 }
-
-button {
-	color: red;
+nav {
+	border: 1px solid red;
+	float: right;
+}
+nav a {
+	color: purple;
+	display:inline-block;
 	font-family: heebo;
-	font-size: 15px;
-	border: none;
-	background: #ffffff;
 	padding: 20px;
 }
-
-button a {
-	color: purple;
-}
-
-p,ul, address {
-	color: #000000;
-	font-family: palatino, times new roman, serif;
-	font-size: 18px;
-	line-height: 1.5em;
-	margin: 2em;
-
-}
 a {color: green}
-
 a:hover {color:hotpink}
-
-.logo {
-	width: 25%;
+header img {
+	width: 10em;
 	border: 1px solid purple;
 
 }
-
-nav {
-	border: 1px solid red;
-	display: inline-block;
-	float: right;
+.container {
+	padding:5em 0;
 }
-
-.logo {
-	width: 25%;
+.container img {
+	float:left;
+	width:33.33%;
 }
-
-.realEstateContainer {
+.container div {
+	float:left;
+	width: 66.66%;
+	padding: 4em;
+}
+.container:nth-of-type(even) img, .container:nth-of-type(even) div {
+	float:right;
+}
+.realEstate {
 	border: 3px solid blue;
-	height: 500px;
+	max-width: 1200px;
+	margin: auto;
 }
-.realEstateContainer img{
-	float: left;
-	width: 30%;
-	max-height: 500px;
-	max-width: 450px;
+.invitation {
+	background:purple;
+	color:#fff;
+	padding: 0;
 }
-
-.realEstateContainer-text {
-	background-color: green;
-	float: right;
-	width: 70%;
+.invitation.container > * {
+	width:50%;
 }
-
-.invitationContainer {
-	border: 3px solid red;
-	height: 400px;
-}
-
-.invitationContainer img {
-	float: right;
-	width: 20%;
-	height: 400px;
-}
-
-.invitation-text {
-	background-color: grey;
-  	float: left;
-  	width: 80%;
-  	height: 400px;
-}
-.footer p {
+footer p {
 	float: right;
 	font-family: palatino, times new roman, serif;
 	font-size: 13pt;
 }
-
-.footer-button button {
+footer-button button {
 	float: left;
 	display: block;
-
+}
+.clearfix:after, .container:after {
+	display:block;
+	clear:both;
+	content:"";
 }
