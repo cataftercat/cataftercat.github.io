@@ -24,6 +24,8 @@ h2 {
 	background-image: url('../images/editcam.jpg');
 	background-size: cover;
 	background-position: center;
+	margin: 0 10px 10px 10px;
+	
 }
 .textBlock {
 	text-align: center;
@@ -38,22 +40,26 @@ h2 {
   	font-weight: bold;
   	margin-top: 100px;
   	padding: 1em 2em;
+  	text-decoration: none;
 }
 nav {
-	border: 1px solid red;
 	float: right;
 }
 nav a {
-	color: purple;
+	color: #000;
 	display:inline-block;
-	font-family: heebo;
-	padding: 20px;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 25px;
+	margin-top: 95px;
+	text-decoration: none;
+	:hover {color: red};
 }
 a {color: green}
-a:hover {color:hotpink}
+a:hover {color:red}
 header img {
-	width: 10em;
-	border: 1px solid purple;
+	width: 11em;
+	padding-left: 10px;
 
 }
 .container {
@@ -74,13 +80,32 @@ header img {
 .realEstate {
 	background-color:#dcd5cd;
 	padding: 0;
-
+	margin: 10px;
 }
 .invitation {
 	background:#ede2da;
 	color:#000;
 	padding: 0;
+	margin: 10px;
 }
+.commercial {
+	background: #dce2dc;
+	padding: 0;
+	margin: 10px;
+}
+.eddm {
+	background: #e3e3df;
+	padding: 0;
+	margin: 10px;
+
+}
+.learn {
+	font-family: heebo;
+	font-size:12pt;
+	text-decoration: underline;
+
+}
+
 invitation.container > * {
 	width:30%;
 }
