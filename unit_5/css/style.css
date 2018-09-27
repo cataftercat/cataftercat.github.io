@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:900');
 @import url('https://fonts.googleapis.com/css?family=Heebo:900');
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing: border-box; }
 body {
 	color: #222;
 	font-family: palatino, times new roman, serif;
@@ -18,19 +18,24 @@ h2 {
 	line-height: 3em;
 }
 .heroContainer {
-	border: 3px solid white;
 	color:#fff;
 	height: 800px;
 	background-image: url('../images/editcam.jpg');
 	background-size: cover;
 	background-position: center;
 	margin: 0 10px 10px 10px;
-	
+	position: relative;
 }
+
 .textBlock {
 	text-align: center;
-	margin-top: 150px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 .cta {
   	background-color: transparent;
   	border: 2px solid white;
@@ -53,7 +58,6 @@ nav a {
 	padding: 25px;
 	margin-top: 95px;
 	text-decoration: none;
-	:hover {color: red};
 }
 a {color: green}
 a:hover {color:red}

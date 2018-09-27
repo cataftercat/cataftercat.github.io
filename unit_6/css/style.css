@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
+* { margin:0; padding:0; box-sizing: border-box; }
+body {
+	font-family: palatino, times new roman, serif;
+	font-size: 18px;
+	line-height:1.5;
+}
+h1 {
+	font-family: Heebo, sans-serif;
+	font-size:1.5em;
+}
+h2 {
+	font-family: Heebo, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 3em;
+}
+.heroContainer {
+	color:#fff;
+	height: 800px;
+	background-image: url('../images/editcam.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 0 10px 10px 10px;
+	position: relative;
+}
+
+.textBlock {
+	text-align: center;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta {
+  	background-color: transparent;
+  	border: 2px solid white;
+  	border-radius: 5px;
+  	color: white;
+  	display:inline-block;
+  	font-weight: bold;
+  	margin-top: 100px;
+  	padding: 1em 2em;
+  	text-decoration: none;
+}
+nav {
+	float: right;
+}
+nav a {
+	color: #000;
+	display:inline-block;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 25px;
+	margin-top: 95px;
+	text-decoration: none;
+}
+a {color: black}
+a:hover {color:red}
+header img {
+	width: 11em;
+	padding-left: 10px;
+
+}
+a.two:link {color: white}
+a.two:hover {color:red}
+
+}
+.container {
+	padding:5em 0;
+}
+.container img {
+	float:left;
+	width:33.33%;
+}
+.container div {
+	float:left;
+	width: 66.66%;
+	padding: 4em;
+}
+.container:nth-of-type(even) img, .container:nth-of-type(even) div {
+	float:right;
+}
+.realEstate {
+	background-color:#dcd5cd;
+	padding: 0;
+	margin: 10px;
+}
+.invitation {
+	background:#ede2da;
+	color:#000;
+	padding: 0;
+	margin: 10px;
+}
+.commercial {
+	background: #dce2dc;
+	padding: 0;
+	margin: 10px;
+}
+.eddm {
+	background: #e3e3df;
+	padding: 0;
+	margin: 10px;
+
+}
+.learnMore {
+	font-family: heebo;
+	font-color: black;
+	font-size:12pt;
+	text-decoration: underline;
+	padding-top: 4em;
+
+}
+.contact {  
+	background: black;
+	color: white;
+	font-size: 16pt;
+	padding: 20px;
+	text-align: center;
+}
+
+
+invitation.container > * {
+	width:30%;
+}
+.address {
+	display: inline-block;
+	float: right;
+	font-family: palatino, times new roman, serif;
+	font-size: 12pt;
+	padding: 20px 170px 20px 20px;
+}
+li  {
+	display: block;
+	padding: 30px;
+	font-size: 12pt;
+}
+.allrights {
+	text-align: center;
+}
+.clearfix:after, .container:after {
+	display:block;
+	clear:both;
+	content:"";
+}
