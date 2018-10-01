@@ -136,14 +136,14 @@ invitation.container > * {
   	width:25%;
 	display: inline-block;
 	float: right;
-	transform: skew(-45deg);
+	transform: skew(-35deg);
 }
 .address h3 {
-	transform: skew(45deg); 
+	transform: skew(35deg); 
 	text-align: left;
 }
 .address p {
-	transform:skew(45deg);
+	transform:skew(35deg);
 	text-align: left;
 }
 .footerNav a {
