@@ -118,6 +118,7 @@ a.two:hover {color:red}
 	background: black;
 	color: white;
 	font-size: 16pt;
+	font-family: heebo;
 	padding: 20px;
 	text-align: center;
 }
@@ -127,19 +128,44 @@ invitation.container > * {
 	width:30%;
 }
 .address {
-	display: inline-block;
-	float: right;
 	font-family: palatino, times new roman, serif;
 	font-size: 12pt;
-	padding: 20px 170px 20px 20px;
+	padding: 0 0 95px 150px;
+	background:black;
+  	color:#fff;
+  	width:25%;
+	display: inline-block;
+	float: right;
+	transform: skew(-45deg);
 }
-li  {
+.address h3 {
+	transform: skew(45deg); 
+	text-align: left;
+}
+.address p {
+	transform:skew(45deg);
+	text-align: left;
+}
+.footerNav a {
 	display: block;
-	padding: 30px;
+	padding: 5px;
 	font-size: 12pt;
+	text-decoration: none;
 }
-.allrights {
+.footerNav {
+	padding: 20px;
+}
+.footer-social h3{
+	font-family: palatino, times new roman, serif;
+	font-size: 10pt;
+}
+p.allrights {
+	background: red;
+	font-family: palatino, times new roman, serif;
+	font-size: 10pt;
 	text-align: center;
+	color: white;
+	padding: 3px;
 }
 .clearfix:after, .container:after {
 	display:block;
