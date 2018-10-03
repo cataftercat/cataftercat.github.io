@@ -58,22 +58,23 @@ nav a {
 	display:inline-block;
 	font-family: sans-serif;
 	font-size: 16px;
-	padding: 25px;
-	margin-top: 95px;
+	padding: 35px;
+	margin-top: 85px;
 	text-decoration: none;
 	transform: skew(-35deg);
 }
-a {color: black}
 
+a {color: black}
+a:hover {color:red}
 header img {
 	width: 11em;
 	padding-left: 10px;
 
 }
 a.two:link {color: white}
-a.two:hover {color:red}
+a.two:hover {color:red} 
+nav a:hover {background:black; color:red}
 
-}
 .container {
 	padding:5em 0;
 }
