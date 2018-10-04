@@ -59,7 +59,7 @@ nav a {
 	font-family: sans-serif;
 	font-size: 16px;
 	padding: 35px;
-	margin-top: 85px;
+	padding-top: 120px;
 	text-decoration: none;
 	transform: skew(-35deg);
 }
@@ -173,10 +173,12 @@ address {
 .footer-social h3{
 	font-family: palatino, times new roman, serif;
 	font-size: 10pt;
+	padding-left: 20px;
 }
 .footer-social > * {
 	display: inline-block;
 	vertical-align: middle;
+	padding: 3px;
 }
 p.allrights {
 	background: red;
