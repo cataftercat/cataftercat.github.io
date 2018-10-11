@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
+* { margin:0; padding:0; box-sizing: border-box; }
+body {
+	font-family: palatino, times new roman, serif;
+	font-size: 14pt;
+	line-height:1.5;
+}
+h1 {
+	font-family: Heebo, sans-serif;
+	font-size: 2.5em;
+}
+h2 {
+	font-family: Heebo, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	line-height: 3em;
+}
+.heroContainer {
+	color:#fff;
+	height: 800px;
+	background-image: url('../images/editcam.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 0 0.7% 0.7% 0.7%;
+	position: relative;
+}
+
+.textBlock {
+	text-align: center;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta {
+  	background-color: transparent;
+  	border: 2px solid white;
+  	border-radius: 0.35%;
+  	color: white;
+  	display:inline-block;
+  	font-weight: bold;
+  	margin-top: 7%;
+  	padding: 1em 2em;
+  	text-decoration: none;
+}
+nav a span{
+	transform: skew(35deg);
+	display: inline-block;
+}
+nav {
+	float: right;
+}
+nav a {
+	color: #000;
+	display:inline-block;
+	font-family: sans-serif;
+	font-size: 14pt;
+	padding: 35px;
+	padding-top: 122px;
+	text-decoration: none;
+	transform: skew(-35deg);
+}
+
+a {color: black}
+a:hover {color:red}
+header img {
+	width: 11em;
+	padding-left: 0.7%;
+
+}
+a.two:link {color: white}
+a.two:hover {color:red} 
+nav a:hover {background:black; color:red}
+
+.container {
+	padding:5em 0;
+}
+.container img {
+	float:left;
+	width:33.33%;
+}
+.container div {
+	float:left;
+	width: 66.66%;
+	padding: 4em;
+}
+.container:nth-of-type(even) img, .container:nth-of-type(even) div {
+	float:right;
+}
+.realEstate {
+	background-color:#dcd5cd;
+	padding: 0;
+	margin: 0.7%;
+}
+.invitation {
+	background:#ede2da;
+	color:#000;
+	padding: 0;
+	margin: 0.7%;
+}
+.commercial {
+	background: #dce2dc;
+	padding: 0;
+	margin: 0.7%;
+}
+.eddm {
+	background: #e3e3df;
+	padding: 0;
+	margin: 0.7%;
+
+}
+.learnMore {
+	font-family: heebo;
+	font-color: black;
+	font-size:12pt;
+	text-decoration: underline;
+	padding-top: 4em;
+
+}
+.contact {  
+	background: black;
+	color: white;
+	font-size: 16pt;
+	font-family: heebo;
+	padding: 1.4%;
+	text-align: center;
+}
+
+
+invitation.container > * {
+	width:30%;
+}
+.address div {
+	transform: translate(-50%, -50%) skew(35deg);
+	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+div {
+	display: block;
+}
+.address {
+	font-family: palatino, times new roman, serif;
+	font-size: 12pt;
+	padding: 0 0 3.65% 0;
+	background: black;
+  	color:#fff;
+  	width:25%;
+	position: relative;
+	float: right;
+	transform: skew(-35deg);
+	height: 14em;
+	margin-right: 8em;
+
+}
+address {
+	font-style: normal;
+}
+
+.footerNav a {
+	display: block;
+	padding: .35%;
+	font-size: 12pt;
+	text-decoration: none;
+}
+.footerNav {
+	padding: 1.4%;
+}
+.footer-social h3{
+	font-family: palatino, times new roman, serif;
+	font-size: 10pt;
+	padding-left: 1.4%;
+}
+.footer-social > * {
+	display: inline-block;
+	vertical-align: middle;
+	padding: .21%;
+}
+p.allrights {
+	background: red;
+	font-family: palatino, times new roman, serif;
+	font-size: 10pt;
+	text-align: center;
+	color: white;
+	padding: .21%;
+}
+.clearfix:after, .container:after {
+	display:block;
+	clear:both;
+	content:"";
+}
+@media screen and (max-width: 1487px){
+	section img {
+		float: none;
+		display: block;
+		}
+}
