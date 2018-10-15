@@ -193,9 +193,52 @@ p.allrights {
 	clear:both;
 	content:"";
 }
-@media screen and (max-width: 1487px){
-	section img {
-		float: none;
-		display: block;
+@media screen and (max-width: 1235px){
+	.address {
+		transform: none;
+		background: none;
+		color: #000;
 		}
+	.address div {
+		transform: none;
+		top: 10%;
+		position: relative;
+
+	}
+	p .allrights {
+		padding: none;
+		text-align: center;
+	}
 }
+@media screen and (max-width: 798px){
+	nav a {
+		transform: none;
+	}
+	nav a span {
+		transform: none;
+	}
+	nav a:hover {background: white}
+
+}
+@media screen and (max-width: 761px){
+	.container img {
+		float: none;
+		width:100%;
+}
+	.container div {
+		float: none;
+		width: 100%;
+		padding: 4em;
+	}
+
+}
+@media screen and (max-width: 575px){
+	.address {
+		font-size: .7em;
+		width: 35%;
+	}
+}
+
+
+
+
