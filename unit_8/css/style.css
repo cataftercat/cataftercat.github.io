@@ -52,6 +52,9 @@ nav a span{
 }
 nav {
 	float: right;
+	overflow: hidden;
+	width: 75%;
+	text-align: right;
 }
 nav a {
 	color: #000;
@@ -76,16 +79,18 @@ a.two:hover {color:red}
 nav a:hover {background:black; color:red}
 
 .container {
-	padding:5em 0;
+	position: relative;
 }
 .container img {
 	float:left;
 	width:33.33%;
 }
 .container div {
-	float:left;
-	width: 66.66%;
-	padding: 4em;
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 38%;
+	transform: translateY(-50%);
 }
 .container:nth-of-type(even) img, .container:nth-of-type(even) div {
 	float:right;
@@ -194,11 +199,17 @@ p.allrights {
 	content:"";
 }
 @media screen and (max-width: 1235px){
+	.container img {
+		width:50%;
+	}
+	.container div {
+		width: 50%;	
+	}
 	.address {
 		transform: none;
 		background: none;
 		color: #000;
-		}
+	}
 	.address div {
 		transform: none;
 		top: 10%;
