@@ -78,9 +78,6 @@ a.two:link {color: white}
 a.two:hover {color:red} 
 nav a:hover {background:black; color:red}
 
-.container {
-	position: relative;
-}
 .container img {
 	float:left;
 	width:33.33%;
@@ -94,6 +91,9 @@ nav a:hover {background:black; color:red}
 }
 .container:nth-of-type(even) img, .container:nth-of-type(even) div {
 	float:right;
+}
+.container {
+	position: relative;
 }
 .realEstate {
 	background-color:#dcd5cd;
