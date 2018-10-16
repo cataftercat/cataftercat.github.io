@@ -89,8 +89,11 @@ nav a:hover {background:black; color:red}
 	left: 38%;
 	transform: translateY(-50%);
 }
-.container:nth-of-type(even) img, .container:nth-of-type(even) div {
+.container:nth-of-type(even) img {
 	float:right;
+}
+.container:nth-of-type(even) div {
+	left: 3%;
 }
 .container {
 	position: relative;
