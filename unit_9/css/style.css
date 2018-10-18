@@ -16,13 +16,10 @@ h2 {
 	font-weight: bold;
 	line-height: 3em;
 }
-.heroContainer {background: #000;}
 .heroContainer {
 	color:#fff;
 	height: 800px;
-	background-image: url('../images/Graphic-Designer.jpg');
-	opacity: .3;
-	background-color: #000;
+	background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/Graphic-Designer.jpg');
 	background-size: cover;
 	background-position: center;
 	margin: 0 0.7% 0.7% 0.7%;
@@ -209,8 +206,11 @@ p.allrights {
 		width:50%;
 	}
 	.container div {
-		width: 50%;	
+		width: 40%;	
 	}
+	.container:nth-of-type(odd) div {
+	left: 55%;
+}
 	.address {
 		transform: none;
 		background: none;
