@@ -227,6 +227,21 @@ p.allrights {
 		text-align: center;
 	}
 }
+@media screen and (max-width: 983px){
+	.learnMore {
+		padding-top: 1em;
+	}
+}
+@media screen and (max-width: 907px){
+		.container div {
+		width: 80%;
+		background-color: #fff;
+		padding: 1em;	
+	}
+		.container:nth-of-type(odd) div {
+		left: 15%;
+	}
+}
 @media screen and (max-width: 798px){
 	nav a {
 		transform: none;
@@ -237,15 +252,17 @@ p.allrights {
 	nav a:hover {background: white}
 
 }
-@media screen and (max-width: 761px){
+@media screen and (max-width: 774px){
 	.container img {
 		float: none;
 		width:100%;
 }
 	.container div {
-		float: none;
 		width: 100%;
-		padding: 4em;
+		display: block;
+		position: none;
+		transform: none;
+		background: none;
 	}
 
 }
