@@ -24,6 +24,7 @@ h2 {
 	background-position: center;
 	margin: 0 0.7% 0.7% 0.7%;
 	position: relative;
+	z-index: -1;
 }
 
 .textBlock {
@@ -242,15 +243,28 @@ p.allrights {
 		left: 15%;
 	}
 }
-@media screen and (max-width: 798px){
+@media screen and (max-width: 900px){
+
 	nav a {
 		transform: none;
+		overflow: hidden;
 	}
 	nav a span {
 		transform: none;
 	}
-	nav a:hover {background: white}
+	nav a:hover {background: none;}
 
+}
+@media screen and (max-width: 820px){
+	nav {
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+	nav a {
+		padding: 1em;
+		padding-left: .7em;
+	}
 }
 @media screen and (max-width: 774px){
 	.container img {
@@ -259,10 +273,9 @@ p.allrights {
 }
 	.container div {
 		width: 100%;
-		display: block;
+		float: none;
 		position: none;
-		transform: none;
-		background: none;
+		display: block;
 	}
 
 }
