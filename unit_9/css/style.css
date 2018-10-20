@@ -275,11 +275,26 @@ p.allrights {
 		width: 100%;
 		float: none;
 		position: none;
-		display: block;
+		
 	}
 
 }
-@media screen and (max-width: 575px){
+@media screen and (max-width: 405px){
+	nav a {
+		font-size: 12pt;
+	}
+	.container img {
+		display: none;
+	}
+	.container div {
+		display: block;
+		width: 100%;
+		background: none;
+		transform: none;
+	}
+	section {
+		display: block;
+	}
 	.address {
 		font-size: .7em;
 		width: 35%;
